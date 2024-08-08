@@ -9,7 +9,7 @@ runs:
   using: "composite"
   steps:
     - name: Greet with an Action Package
-      uses: immutable-actions/e2e-test-internal-org-accessible-action@0.0.2
+      uses: immutable-actions/e2e-test-public-org-accessible-action@0.0.2
       with:
         who-to-greet: ${{ inputs.who-to-greet }}
 
